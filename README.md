@@ -6,12 +6,12 @@ jib-sample-app
 ~~~
 
 ~~~bash
-docker image
+docker images
 ~~~
 
 ~~~bash
 docker run -p 8080:8080 -it jibsampleimage
 ~~~
 
-http://localhost/
+http://localhost:8080/
 

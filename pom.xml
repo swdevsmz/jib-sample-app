@@ -14,7 +14,7 @@
 	<name>jib-sample-app</name>
 	<description>jib-sample-app</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -75,8 +75,11 @@
 				<artifactId>jib-maven-plugin</artifactId>
 				<version>1.8.0</version>
 				<configuration>
+				    <from>
+        				<image>openjdk:8-alpine</image>
+      				</from>
 					<to>
-						<image>jibsampleimage</image>
+						<image>jibsampleimage:1.0.0</image>
 					</to>
 				</configuration>
 			</plugin>
